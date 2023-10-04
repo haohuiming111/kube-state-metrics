@@ -1,5 +1,6 @@
 ARG GOVERSION=1.21
 ARG GOARCH
+ARG GOARCH=adm64
 FROM registry.cn-qingdao.aliyuncs.com/sgmp/kube-state-metrics:1.20 as builder
 ARG GOARCH
 ENV GOARCH=${GOARCH}
